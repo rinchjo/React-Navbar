@@ -1,0 +1,9 @@
+.posts {
+  background: linear-gradient(
+    180deg,
+    rgb(45, 77, 90) 0%,
+    rgb(114, 88, 131) 100%
+  );
+  height: 100vh;
+  width: 100%;
+}

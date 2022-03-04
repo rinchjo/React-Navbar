@@ -8,12 +8,13 @@ const NavBar = () => {
 
   const pressIcon = () => {
     setDisabled(!disabled);
+    setNavbar(!nav);
   };
   return (
     <div>
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          React<i className="fab fa-react"></i>
+          Atom<i className="fab fa-react"></i>
         </h1>
         <div onClick={pressIcon} className="menu-icon">
           <i
